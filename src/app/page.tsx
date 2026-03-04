@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="medium"
       sizing="medium"
-      background="aurora"
+      background="circleGradient"
       cardStyle="layered-gradient"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="glass"
@@ -48,7 +48,7 @@ export default function LandingPage() {
         <HeroSplitKpi
           title="We craft AI automations that captivate leads and drive meaningful revenue for ambitious businesses worldwide."
           description="Autonomous AI voice receptionists that answer every call. Custom backend automations that eliminate manual work. Built for high-ticket service businesses that refuse to leave revenue on the table."
-          background={{ variant: "aurora" }}
+          background={{ variant: "glowing-orb" }}
           kpis={[
             { value: "99.2%", label: "Call Capture Rate" },
             { value: "24/7", label: "Autonomous Booking" },
@@ -218,7 +218,7 @@ export default function LandingPage() {
               text: "Schedule Your Orbital Audit",              href: "https://calendly.com/quasarnova"
             }
           ]}
-          background={{ variant: "aurora" }}
+          background={{ variant: "glowing-orb" }}
           useInvertedBackground={true}
         />
       </div>
